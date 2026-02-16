@@ -14,6 +14,7 @@ export default defineConfig({
         items: [
           { text: "leetcode", link: "/career/leetcode/" },
           { text: "八股文", link: "/career/bagu/" },
+          { text: "面经", link: "/career/interview/" },
         ],
       },
       {
@@ -38,6 +39,19 @@ export default defineConfig({
           items: [
             { text: "快速开始", link: "/guide/" },
             { text: "第二页", link: "/guide/second" },
+          ],
+        },
+      ],
+      // 面经
+      "/career/interview/": [
+        {
+          text: "面经",
+          items: [
+             { text: "2024.3.21 蔚来", link: "/career/interview/20240321蔚来" },
+             { text: "2024.3.21 momenta", link: "/career/interview/20240321momenta" },
+              { text: "2024.3.25 淘天", link: "/career/interview/20240325淘天" },
+              { text: "2024.3.26 快手", link: "/career/interview/20240326快手" },
+              { text: "2024.3.26 滴滴", link: "/career/interview/20240326滴滴" },
           ],
         },
       ],
