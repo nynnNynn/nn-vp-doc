@@ -9,6 +9,7 @@ export default defineConfig({
     // 顶部栏
     nav: [
       { text: "首页", link: "/" },
+      { text: "日记", link: "/diaries/" },
       {
         text: "求职",
         items: [
@@ -39,6 +40,15 @@ export default defineConfig({
           items: [
             { text: "快速开始", link: "/guide/" },
             { text: "第二页", link: "/guide/second" },
+          ],
+        },
+      ],
+      "/diaries/": [
+        {
+          text: "日记们",
+          items: [
+            { text: "第一周2019.8.20", link: "/diaries/20190820/" },
+
           ],
         },
       ],
