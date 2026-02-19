@@ -65,6 +65,15 @@ export default defineConfig({
           ],
         },
       ],
+      "/study/spring2026/": [
+        {
+          text: "2026 spring学期",
+          items: [
+             { text: "4278", link: "/study/spring2026/cs4278/" },
+         
+          ],
+        },
+      ],
       "/projects/diarriors/": [
         {
           text: "Diarriors",
