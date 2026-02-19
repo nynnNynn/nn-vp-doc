@@ -70,6 +70,8 @@ export default defineConfig({
           text: "2026 spring学期",
           items: [
              { text: "4278", link: "/study/spring2026/cs4278/" },
+             { text: "4278midterm速查", link: "/study/spring2026/cs4278midterm/" },
+             { text: "4278模板", link: "/study/spring2026/cs4278midterm/" },
          
           ],
         },
