@@ -65,6 +65,15 @@ export default defineConfig({
           ],
         },
       ],
+      "/career/bagu/": [
+        {
+          text: "前端八股文",
+          items: [
+             { text: "html", link: "/career/bagu/html" },
+  
+          ],
+        },
+      ],
       "/study/spring2026/": [
         {
           text: "2026 spring学期",
