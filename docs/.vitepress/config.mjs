@@ -92,6 +92,7 @@ export default defineConfig({
              { text: "介绍", link: "/projects/diarriors/" },
             { text: "阶段性文档2026.2.14", link: "/projects/diarriors/2026.2.14" },
             { text: "积累文档自2026.2.14", link: "/projects/diarriors/2026.2.14——" },
+            { text: "文档2026.3.22", link: "/projects/diarriors/2026.3.22" },
            
           ],
         },
