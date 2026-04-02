@@ -1,24 +1,21 @@
-const temp = {
-    'a.b.c': 2,
-    'a.d': 3,
-}
-function get(){
-    let result = {};
-    Object.entries(temp).forEach(
-        (item, id) => {
-            //[ 'a.b.c', 2 ]
-            console.log(item[0].split('.'));
-            let temp_result = result
-            // [ 'a', 'b', 'c' ]
-            item[0].split('.').forEach(
-                (alpha, idx) => {
-                    if
-                }
-            )
-
+function flatter(arr){
+  let result = [];
+  function flatHelper(arr_temp){
+    arr_temp.forEach(
+      (item) => {
+        // console.log(typeof item);
+        if(typeof item !== 'object'){
+          
+          result.push(item);
+        } else{
+          flatHelper(item);
         }
+      }
     )
-    console.log(Object.entries(temp));
-    return result;
+
+  }
+  flatHelper(arr);
+  return result;
 }
-get(temp);
+const temp = [1, [2, [3, [], 4]], 5];
+console.log(flatter(temp));

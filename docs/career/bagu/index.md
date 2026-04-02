@@ -1,2 +1,3 @@
 # 前端八股
-hdszfjsja
+[面试准备](pre.md)
+[基础js相关知识](js.md)
