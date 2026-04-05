@@ -9,7 +9,12 @@ export default defineConfig({
     // 顶部栏
     nav: [
       { text: "首页", link: "/" },
-      { text: "计划", link: "/plans/" },
+      { text: "计划", link: "/plans/",
+        items: [
+          { text: "leetcode", link: "/plans/2026.4.6-10" },
+
+        ],
+       },
       { text: "日记", link: "/diaries/" },
       {
         text: "求职",
