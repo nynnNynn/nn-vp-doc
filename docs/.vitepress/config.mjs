@@ -46,7 +46,7 @@ export default defineConfig({
       ],
       "/plans/": [
         {
-          text: "日记们",
+          text: "计划",
           items: [
             { text: "考试周4.6-10", link: "/plans/2026.4.6-10/" },
 
