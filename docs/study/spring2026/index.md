@@ -15,16 +15,15 @@
 | 2420微分方程 | 4.1课上 | quiz7 | quiz | 两道题 | 准备准备 | ✅ |
 | CS4278 | 03.29 半夜 | HW5 | Assignment | 没注意内容 | 提前看看 | ✅ |
 | CS4278 | 04.05 半夜 | HW6a | Assignment | 开源社区 | 提前看看 | ✅ |
-
+| 2420微分方程 | 4.8课上 | exam3 | exam | 看midterm2 | 暂无 | ✅ |
 | 课程 | 时间 | 名称 | 类别 | 评价 | 策略 | 完成 |
 |------|------|------|------|------|------|------|
-| 2420微分方程 | 4.8课上 | exam3 | exam | 看midterm2 | 暂无 | |
 | 2410线代 | 4.14课上 | exam3 | exam | 看midterm2 | 暂无 | |
 | 2820概率 | 4.15课上 | exam3 | exam | 不确定难度 | 正常准备 | |
-| CS4278 | 04.16 课堂 | final（exam 2） | exam | 类似exam1还好 | 暂无 | |
 | ps2227 | 04.17半夜 | project定稿 | assignment | 未知 | 等后续 | |
-| CS4278 | 04.19 半夜 | HW6b | Assignment | 学期末压力 | 用late days | |
 | cs3281 | 4.21课上 | exam2 | exam | 未知 | 正常准备 | |
+| CS4278 | 04.21 课上 | final（exam 2） | exam | 类似exam1还好 | 暂无 | |
+| CS4278 | 04.22 半夜 | HW6b | Assignment | 学期末压力 | 用late days | |
 | ps2227 | 04.23课上 | final exam | exam | 类似第一个，看卷子 | 应该还好 | |
 | 2820概率 | 4.27 9am | final | exam | 不确定 | 学会就行 | |
 | 2410线代 | 4.28下午 | final | final | 有难度 | 暂无 | |
