@@ -84,6 +84,17 @@ export default defineConfig({
           ],
         },
       ],
+      "/career/leetcode/": [
+        {
+          text: "leetcode",
+          items: [
+            
+             { text: "完成列表", link: "/career/leetcode/" },
+             { text: "计划文档", link: "/career/leetcode/plan" },
+  
+          ],
+        },
+      ],
       "/study/spring2026/": [
         {
           text: "2026 spring学期",
