@@ -103,6 +103,7 @@ export default defineConfig({
              { text: "微分方程", link: "/study/spring2026/ode/" },
              { text: "4278midterm速查", link: "/study/spring2026/cs4278midterm/" },
              { text: "4278模板", link: "/study/spring2026/cs4278template/" },
+             { text: "4.12考试周", link: "/study/spring2026/4.12/" },
          
           ],
         },
