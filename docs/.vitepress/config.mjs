@@ -118,6 +118,7 @@ export default defineConfig({
             { text: "积累文档自2026.2.14", link: "/projects/diarriors/2026.2.14——" },
             { text: "文档2026.3.22", link: "/projects/diarriors/2026.3.22" },
             { text: "文档2026.3.24", link: "/projects/diarriors/2026.3.24" },
+            { text: "文档2026.5.9", link: "/projects/diarriors/2026.5.9" },
            
           ],
         },
