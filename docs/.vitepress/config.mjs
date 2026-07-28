@@ -10,7 +10,6 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "计划", link: "/plans/",},
-      { text: "日记", link: "/diaries/" },
       {
         text: "求职",
         items: [
@@ -49,15 +48,6 @@ export default defineConfig({
           text: "计划",
           items: [
             { text: "考试周4.6-10", link: "/plans/2026.4.6-10/" },
-
-          ],
-        },
-      ],
-      "/diaries/": [
-        {
-          text: "日记们",
-          items: [
-            { text: "第一周2019.8.20", link: "/diaries/20190820/" },
 
           ],
         },
