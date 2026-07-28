@@ -2,14 +2,22 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
-  title: "nn-doc",
+  title: "宁宁爱学习",
   description: "学习文档，笔记，以及杂七杂八",
 
   themeConfig: {
     // 顶部栏
     nav: [
       { text: "首页", link: "/" },
-      { text: "计划", link: "/plans/",},
+      {
+        text: "读书笔记",
+        items: [
+          { text: "概览", link: "/读书笔记/" },
+          { text: "历史", link: "/读书笔记/历史/匈奴列传" },
+          { text: "小说", link: "/读书笔记/小说/酒吧长谈" },
+          { text: "专业", link: "/读书笔记/专业/人月神话" },
+        ],
+      },
       {
         text: "求职",
         items: [
@@ -34,21 +42,39 @@ export default defineConfig({
 
     // 侧边栏（按路径分组）
     sidebar: {
+      "/读书笔记/": [
+        {
+          text: "读书笔记",
+          items: [{ text: "概览", link: "/读书笔记/" }],
+        },
+        {
+          text: "历史",
+          items: [
+            { text: "匈奴列传", link: "/读书笔记/历史/匈奴列传" },
+            { text: "资治通鉴笔记", link: "/读书笔记/历史/资治通鉴笔记" },
+          ],
+        },
+        {
+          text: "小说",
+          items: [
+            { text: "酒吧长谈", link: "/读书笔记/小说/酒吧长谈" },
+            { text: "围城", link: "/读书笔记/小说/围城" },
+          ],
+        },
+        {
+          text: "专业",
+          items: [
+            { text: "人月神话", link: "/读书笔记/专业/人月神话" },
+            { text: "设计模式", link: "/读书笔记/专业/设计模式" },
+          ],
+        },
+      ],
       "/guide/": [
         {
           text: "指南",
           items: [
             { text: "快速开始", link: "/guide/" },
             { text: "第二页", link: "/guide/second" },
-          ],
-        },
-      ],
-      "/plans/": [
-        {
-          text: "计划",
-          items: [
-            { text: "考试周4.6-10", link: "/plans/2026.4.6-10/" },
-
           ],
         },
       ],
