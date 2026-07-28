@@ -12,6 +12,25 @@ export default withPwa(
       nav: [
         { text: "首页", link: "/" },
         {
+          text: "杂学",
+          items: [
+            { text: "概览", link: "/杂学/" },
+            { text: "国学", link: "/杂学/国学/论语" },
+            { text: "文学", link: "/杂学/文学/文学理论" },
+            { text: "哲学", link: "/杂学/哲学/存在与时间" },
+          ],
+        },
+        {
+          text: "CS",
+          items: [
+            { text: "概览", link: "/cs/" },
+            { text: "前端", link: "/cs/前端/React基础" },
+            { text: "后端", link: "/cs/后端/Node入门" },
+            { text: "基础", link: "/cs/基础/操作系统" },
+            { text: "算法", link: "/cs/算法/动态规划" },
+          ],
+        },
+        {
           text: "读书笔记",
           items: [
             { text: "概览", link: "/读书笔记/" },
@@ -37,6 +56,55 @@ export default withPwa(
 
       // 侧边栏（按路径分组）
       sidebar: {
+        "/杂学/": [
+          {
+            text: "杂学",
+            items: [{ text: "概览", link: "/杂学/" }],
+          },
+          {
+            text: "国学",
+            items: [{ text: "论语", link: "/杂学/国学/论语" }],
+          },
+          {
+            text: "文学",
+            items: [{ text: "文学理论", link: "/杂学/文学/文学理论" }],
+          },
+          {
+            text: "哲学",
+            items: [{ text: "存在与时间", link: "/杂学/哲学/存在与时间" }],
+          },
+        ],
+        "/cs/": [
+          {
+            text: "CS",
+            items: [{ text: "概览", link: "/cs/" }],
+          },
+          {
+            text: "前端",
+            items: [
+              { text: "React 基础", link: "/cs/前端/React基础" },
+              { text: "CSS 布局", link: "/cs/前端/CSS布局" },
+            ],
+          },
+          {
+            text: "后端",
+            items: [
+              { text: "Node 入门", link: "/cs/后端/Node入门" },
+              { text: "数据库", link: "/cs/后端/数据库" },
+            ],
+          },
+          {
+            text: "基础",
+            items: [
+              { text: "操作系统", link: "/cs/基础/操作系统" },
+              { text: "计算机网络", link: "/cs/基础/计算机网络" },
+            ],
+          },
+          {
+            text: "算法",
+            items: [{ text: "动态规划", link: "/cs/算法/动态规划" }],
+          },
+        ],
         "/读书笔记/": [
           {
             text: "读书笔记",
@@ -123,9 +191,10 @@ export default withPwa(
       },
     },
 
-    // PWA：首次在线访问后，整站静态资源可离线阅读
+    // PWA：首次在线访问并等缓存完成后，可离线阅读
     pwa: {
       registerType: "autoUpdate",
+      injectRegister: false, // 由主题里手动 registerSW
       includeAssets: ["favicon.ico", "favicon.svg"],
       manifest: {
         name: "宁宁爱学习",
@@ -136,16 +205,20 @@ export default withPwa(
         display: "standalone",
         lang: "zh-CN",
         start_url: "/",
+        scope: "/",
       },
       workbox: {
         // 预缓存构建产物里的页面与静态资源
         globPatterns: ["**/*.{js,css,html,ico,png,svg,woff2,json,webmanifest}"],
-        // 文档站体积可能偏大，适当提高上限
         maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
+        // VitePress 是 SPA：离线导航 miss 时回落到壳页面，由前端路由渲染
+        navigateFallback: "index.html",
+        navigateFallbackAllowlist: [/^\//],
+        cleanupOutdatedCaches: true,
+        clientsClaim: true,
+        skipWaiting: true,
       },
-      experimental: {
-        includeAllowlist: true,
-      },
+      // 不要开 includeAllowlist：它会给未命中路由加 NetworkOnly，断网地址栏直接空白
       devOptions: {
         enabled: false,
       },

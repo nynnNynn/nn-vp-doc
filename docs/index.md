@@ -6,6 +6,7 @@
 ## 使用方法
 ### 参数说明
 ## 常见问题
+## 快速推送指令
 git add . && git commit -m "update docs" && git push
 
 去 👉 [指南](/guide/)
