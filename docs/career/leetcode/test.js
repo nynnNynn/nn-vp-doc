@@ -19,3 +19,19 @@ function flatter(arr){
 }
 const temp = [1, [2, [3, [], 4]], 5];
 console.log(flatter(temp));
+let str = '12141414241241';
+str.slice
+
+
+/**
+ * @param {string} s
+ * @return {string}
+ */
+var reverseWords = function(s) {
+  let temp = s.split('');
+  for(let i = 0; i < temp.length/ 2; i++){
+      [temp[i], temp[temp.length - 1 - i]] = [temp[temp.length - 1 - i], temp[i]];
+  }
+  console.log(temp);
+
+};
