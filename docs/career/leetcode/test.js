@@ -32,6 +32,12 @@ var reverseWords = function(s) {
   for(let i = 0; i < temp.length/ 2; i++){
       [temp[i], temp[temp.length - 1 - i]] = [temp[temp.length - 1 - i], temp[i]];
   }
-  console.log(temp);
+  let ind_head = 0;
+  let ind_tail = 0;
+  while(ind_tail < temp.length){
+    
+
+    
+  }
 
 };
