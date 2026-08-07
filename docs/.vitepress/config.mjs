@@ -49,7 +49,10 @@ export default withPwa(
         },
         {
           text: "学期",
-          items: [{ text: "2026 spring", link: "/study/spring2026/" }],
+          items: [
+            { text: "2026 spring", link: "/study/spring2026/" },
+            { text: "2026 fall", link: "/study/fall2026/" },
+          ],
         },
         { text: "指南", link: "/guide/" },
       ],
@@ -188,6 +191,16 @@ export default withPwa(
               { text: "4278模板", link: "/study/spring2026/cs4278template/" },
               { text: "4278Final", link: "/study/spring2026/CS4278FInal/" },
               { text: "4.12考试周", link: "/study/spring2026/4.12/" },
+            ],
+          },
+        ],
+        "/study/fall2026/": [
+          {
+            text: "2026 fall学期",
+            items: [
+              { text: "时间表", link: "/study/fall2026/" },
+              { text: "PSCI 3273", link: "/study/fall2026/psci3273/" },
+              { text: "MATH 3620", link: "/study/fall2026/math3620/" },
             ],
           },
         ],

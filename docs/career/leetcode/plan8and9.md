@@ -3,6 +3,9 @@
 - 包含blind75, lc75 在内的总700道题计划 
 - 要注意后期可能进展会比前期慢很多，软柿子都被捏完了
 ## 二，完成情况，文档，日志
+### 2026.8.7
+- 创建文档，初始化
+- 注意某些题目只存在文件未完成，注意筛选
 ## 三，详细分组 phase 1
 
 ### 1. Array / Hash / Two Pointer 
@@ -11,7 +14,7 @@
 
 | 编号 | 名字 | 简评 | 链接 | 程度 |
 |------|------|------|------|------|
-| 1 | Two Sum |  | [lc001](./lc001.md) | 写过✅ |
+| 1 | Two Sum | 秒，再不用管了 | [lc001](./lc001.md) | 写过✅ |
 | 15 | 3Sum |  | [lc015](./lc015.md) | 写过✅ |
 | 18 | 4Sum |  |  |  |
 | 36 | Valid Sudoku |  |  |  |
@@ -41,7 +44,7 @@
 
 | 编号 | 名字 | 简评 | 链接 | 程度 |
 |------|------|------|------|------|
-| 3 | Longest Substring Without Repeating Characters |  | [lc003](./lc003.md) | 写过✅ |
+| 3 | Longest Substring Without Repeating Characters | 需重写，需打磨 | [lc003](./lc003.md) | 写过✅ |
 | 30 | Substring with Concatenation of All Words |  |  |  |
 | 76 | Minimum Window Substring |  |  |  |
 | 159 | Longest Substring with At Most Two Distinct Characters |  |  |  |
