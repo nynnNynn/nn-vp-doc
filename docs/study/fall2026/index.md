@@ -1,14 +1,24 @@
 # 2026 fall 学期课程时间线
+
 ## since TBD
-| 课程 | 时间 | 名称 | 类别 | 评价 | 策略 | 完成 |
-|------|------|------|------|------|------|------|
-| PSCI 3273 | 10.1课上 | Midterm Exam 1 | exam | 20%，纸笔 | 正常准备 | |
-| PSCI 3273 | 11.2 | Research Design 材料 | assignment | 15%，2–3人组 | 课上细节 | |
-| PSCI 3273 | 11.3 / 11.5课上 | Research Design 展示 | presentation | 同上 | 课上讲 | |
-| PSCI 3273 | 11.17课上 | Midterm Exam 2 | exam | 20%，纸笔 | 正常准备 | |
-| PSCI 3273 | 12.14 | Final Project | project | 20%，老师给网络数据 | 看后续说明 | |
-| MATH 3620 | | | | | | |
+
+
+| 课程        | 时间            | 名称                 | 类别           | 评价                         | 策略                                   | 完成  |
+| --------- | ------------- | ------------------ | ------------ | -------------------------- | ------------------------------------ | --- |
+| MATH 3620 | 9.28          | Midterm 1          | exam         | 30%，其实是高分的一次占百分之30，感觉应该是这次 | 我其实感觉一开始不难，两章可能，如果早点开始学不压成一两天我觉得可能ok |     |
+| PSCI 3273 | 10.1课上        | Midterm Exam 1     | exam         | 20%，纸笔                     | 正常准备                                 |     |
+| CS 4288   | 10.2课上        | Exam 1             | exam         |                            |                                      |     |
+| PSCI 3273 | 11.2          | Research Design 材料 | assignment   | 15%，2–3人组                  | 课上细节                                 |     |
+| PSCI 3273 | 11.3 / 11.5课上 | Research Design 展示 | presentation | 同上                         | 课上讲                                  |     |
+| CS 4288   | 11.9          | Exam 2             | exam         |                            |                                      |     |
+| MATH 3620 | 11.16         | Midterm 2          | exam         | 25%                        |                                      |     |
+| PSCI 3273 | 11.17课上       | Midterm Exam 2     | exam         | 20%，纸笔                     | 正常准备                                 |     |
+| CS 4288   | 12.7          | Exam 3             | exam         |                            |                                      |     |
+| PSCI 3273 | 12.14         | Final Project      | project      | 20%，老师给网络数据                | 看后续说明                                |     |
+
 
 ## 总评
+
 - PSCI 3273：待补充
-- MATH 3620：待补充
+- MATH 3620：syllabus上没有，可以自己问
+
