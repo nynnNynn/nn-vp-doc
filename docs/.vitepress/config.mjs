@@ -176,6 +176,8 @@ export default withPwa(
               { text: "2026.8.6舒适圈补充", link: "/career/leetcode/plan2026.8.6" },
               { text: "2026.8/9月总文档", link: "/career/leetcode/plan8and9" },
               { text: "2026.9月计划", link: "/career/leetcode/planSeptember" },
+              { text: "2026.10月计划", link: "/career/leetcode/planOctober" },
+              { text: "2026.10冲刺", link: "/career/leetcode/2026.10冲刺" },
             ],
           },
         ],
