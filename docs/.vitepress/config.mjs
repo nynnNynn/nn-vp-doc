@@ -170,7 +170,10 @@ export default withPwa(
         "/career/求职/": [
           {
             text: "求职",
-            items: [{ text: "概览", link: "/career/求职/" }],
+            items: [
+              { text: "概览", link: "/career/求职/" },
+              { text: "table", link: "/career/求职/table" },
+            ],
           },
         ],
         "/career/leetcode/": [
