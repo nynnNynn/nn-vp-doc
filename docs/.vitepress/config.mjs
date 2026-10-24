@@ -45,6 +45,7 @@ export default withPwa(
             { text: "leetcode", link: "/career/leetcode/" },
             { text: "八股文", link: "/career/bagu/" },
             { text: "面经", link: "/career/interview/" },
+            { text: "求职", link: "/career/求职/" },
           ],
         },
         {
@@ -164,6 +165,12 @@ export default withPwa(
           {
             text: "前端八股文",
             items: [{ text: "html", link: "/career/bagu/html" }],
+          },
+        ],
+        "/career/求职/": [
+          {
+            text: "求职",
+            items: [{ text: "概览", link: "/career/求职/" }],
           },
         ],
         "/career/leetcode/": [
