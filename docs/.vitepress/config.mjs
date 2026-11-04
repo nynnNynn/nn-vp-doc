@@ -46,6 +46,7 @@ export default withPwa(
             { text: "八股文", link: "/career/bagu/" },
             { text: "面经", link: "/career/interview/" },
             { text: "求职", link: "/career/求职/" },
+            { text: "投递记录", link: "/career/求职/record" },
           ],
         },
         {
@@ -173,6 +174,7 @@ export default withPwa(
             items: [
               { text: "概览", link: "/career/求职/" },
               { text: "table", link: "/career/求职/table" },
+              { text: "投递记录", link: "/career/求职/record" },
             ],
           },
         ],
