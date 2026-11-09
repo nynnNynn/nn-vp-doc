@@ -7,6 +7,26 @@ export default withPwa(
     title: "宁宁爱学习",
     description: "学习文档，笔记，以及杂七杂八",
 
+    markdown: {
+      config(md) {
+        // 围栏代码块 VitePress 会加 v-pre。行内代码和缩进代码块不会，
+        // `style={{ color: 'red' }}` 会变成非法的 Vue 插值。
+        const skipMustache = (ruleName) => {
+          const render =
+            md.renderer.rules[ruleName] ??
+            ((tokens, idx, options, _env, self) =>
+              self.renderToken(tokens, idx, options));
+          md.renderer.rules[ruleName] = (tokens, idx, options, env, self) => {
+            const token = tokens[idx];
+            if (token.content.includes("{{")) token.attrSet("v-pre", "");
+            return render(tokens, idx, options, env, self);
+          };
+        };
+        skipMustache("code_inline");
+        skipMustache("code_block");
+      },
+    },
+
     themeConfig: {
       // 顶部栏
       nav: [
