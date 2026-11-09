@@ -54,6 +54,7 @@ export default withPwa(
           items: [
             { text: "2026 spring", link: "/study/spring2026/" },
             { text: "2026 fall", link: "/study/fall2026/" },
+            { text: "CS 4288", link: "/study/cs4288/" },
           ],
         },
         { text: "指南", link: "/guide/" },
@@ -216,6 +217,17 @@ export default withPwa(
               { text: "时间表", link: "/study/fall2026/" },
               { text: "PSCI 3273", link: "/study/fall2026/psci3273/" },
               { text: "MATH 3620", link: "/study/fall2026/math3620/" },
+            ],
+          },
+        ],
+        "/study/cs4288/": [
+          {
+            text: "CS 4288",
+            items: [
+              { text: "概览", link: "/study/cs4288/" },
+              { text: "伪码查询", link: "/study/cs4288/伪码查询/" },
+              { text: "笔记", link: "/study/cs4288/note/" },
+              { text: "备考条目", link: "/study/cs4288/备考条目/" },
             ],
           },
         ],

@@ -1,25 +1,22 @@
-/**
- * @param {number[]} nums
- * @return {number[][]}
- */
-var permute = function(nums) {
-    let result = [];
-    let used = new Array(nums.length).fill(false);
-    function backtrace(temp, used){
-        if(temp.length === nums.length){
-            result.push([...temp]);
-            return; 
-        }
-        for(let i = 0; i < nums.length; i++){
-            if(!used[i]){
-                temp.push(nums[i]);
-                used[i] = true;
-                backtrace([...temp], used);
-                temp.pop();
-                used[i] = false;
-            }
-        }
+
+function lucasLehmer(p) {
+    const M = 2n ** BigInt(p) - 1n;
+    let r = 4n;
+
+    for (let k = 2; k < p; k++) {
+        r = (r * r - 2n) % M;
     }
-    backtrace([], used);
-    return result;
-};
+
+    return r === 0n;
+}
+
+// test
+const exponents = [521, 547, 593, 607];
+
+for (const p of exponents) {
+    const result = lucasLehmer(p);
+
+    console.log(
+        `M_${p} = 2^${p} - 1: ${result ? "Prime" : "Composite"}`
+    );
+}
